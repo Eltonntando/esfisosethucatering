@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" type="x-icon" href="Images/Esfiso-Logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- font awesome cdn  -->
+  <script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script src="https://kit.fontawesome.com/61003df5a9.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="site.css">
+
+
+<style>
+		.share-button {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px;
+			border-radius: 14px;
+			cursor: pointer;
+			display: inline-block;
+			margin-bottom: 10px;
+			margin-left: 10%;
+			margin-top: 12px;
+		}
+
+		.social-platforms {
+			display: none;
+		}
+
+		.social-platforms.show {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			margin-right: 5px;
+		}
+
+		.social-platforms a {
+			margin: 8px;
+			color: white;
+			font-size: 30px;
+		}
+	</style>
+	<script>
+		function showSocialPlatforms() {
+			const socialPlatforms = document.querySelector('.social-platforms');
+			socialPlatforms.classList.toggle('show');
+		}
+
+		function shareLink(platform) {
+			var linkToShare = "https://avatar-pluga.netlify.app/about.html"; // Replace with your link to share
+			var socialUrl;
+
+			if (platform === 'facebook') {
+				socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'instagram') {
+				socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'email') {
+				socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'whatsapp') {
+				socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
+			}
+
+			window.open(socialUrl, '_blank');
+		}
+	</script>
+
+
+
+</head>
+<body>
+    <!-- home page  -->
+    <div style="hight: 100%; width: 80%; align-self: center; margin-left: 10%;">
+        <!-- header section  -->
+        <div class="header-section">
+            <!-- header logo  -->
+            <div class="logo">
+                <img src="Images/Esfiso-Logo.jpg" style="width: 150px; height: auto; margin-bottom: 20px; border-radius: 9px" alt="">
+            </div>
+
+            <!-- header navigation  -->
+            <div class="header-nav">
+                <div class="mobile-nav-bar">
+                    <i class="fa-solid fa-bars" id="mobile-nav-bar-icon"></i>
+                </div>
+                <ul class="header-nav-list" id="header-nav-list">
+
+
+                	<li class="header-nav-tab">
+                        <a href="about.html" >About Us</a>
+                    </li >
+
+										<li class="header-nav-tab">
+	                        <a href="gallery.html" >Gallery</a>
+	                    </li >
+
+                	<li class="header-nav-tab">
+                        <a href="index.html" >Home</a>
+                    </li >
+
+                    <li class="header-nav-tab">
+                        <a href="selling.html">Services</a>
+                    </li>
+
+                    <li class="header-nav-tab">
+                        <a href="contact.html" >Contacts Us</a>
+                    </li >
+
+                    <span class="highlight"></span>
+                </ul>
+
+                <div style="margin-left: 16px;" class="mode-change">
+                    <i class="fa-solid fa-moon" id="mode-change"></i>
+                </div>
+            </div>
+        </div>
+        <!-- hero section  -->
+        <div class="hero-section">
+            <!-- hero content section  -->
+            <div class="hero-content">
+                <div class="content-header">
+                    <h1 style="background-color: transparent;">About Us</h1>
+                   </p>
+                </div>
+
+            </div>
+
+
+
+				<!-- About details -->
+
+        <div>
+					<h1 style="background-color: transparent;">EsifisoSethu Creations</h1>
+        	<p style="background-color: transparent;">
+						<br>
+						For All Your Food Catering Needs..We got you covered! We do catering for all for events, funerals, ceremonies, celebrations & meetings.
+<br>
+EsifisoSethu Creation Pty Ltd, is your go-to catering service provider based in the heart of Mzinti, Nkomazi, within the picturesque Mpumalanga province of South Africa. At EsifisoSethu Creation, we are dedicated to making your special moments memorable with our exceptional catering services. Our mission is simple: "For All Your Catering Needs, We Got You Covered!"
+<br><br>
+<h3>Our Services:</h3>
+<br>
+- Events: Whether it's a grand wedding, a vibrant birthday party, or a community festival, we bring culinary excellence to any event.
+<br>
+- Funerals: We provide respectful and considerate catering services to ensure your loved ones are honored with the dignity they deserve.
+<br>
+- Ceremonies: From traditional ceremonies to modern celebrations, our catering services are tailored to fit the unique needs of your occasion.
+<br>
+- Celebrations: No celebration is complete without great food. Let us handle the catering so you can focus on celebrating.
+<br>
+- Meetings: Enhance your corporate meetings and business gatherings with our professional catering solutions, ensuring a productive and enjoyable experience for all attendees.
+<br>
+<br>
+<h3>Why Choose Us?</h3>
+<br>
+1. Local Expertise: With deep roots in Mzinti and the Nkomazi region, we understand the local tastes and preferences, bringing a unique and authentic touch to our dishes.
+<br>
+2. Versatility: Our team is equipped to cater to a wide range of events, from intimate gatherings to large-scale functions.
+<br>
+3. Quality: We pride ourselves on using fresh, high-quality ingredients to prepare delicious and visually appealing meals.
+<br>
+4. Professionalism: Our staff is dedicated to providing exceptional service, ensuring that every detail of your event is executed flawlessly.
+<br>
+5. Mobility: Although we are based in Mzinti, we are always ready to travel to your location, bringing our top-notch catering services right to your doorstep.
+<br>
+<br>
+At EsifisoSethu Creation Pty Ltd, we believe that every event is a special occasion that deserves the best catering service. Let us take the stress out of your catering needs, providing you with delightful dishes and impeccable service that will leave a lasting impression on your guests.
+<br>
+Contact Us:
+Get in touch with EsifisoSethu Creation Pty Ltd today to discuss your catering needs and let us make your next event a culinary success!
+<br>
+---
+
+With EsifisoSethu Creation Pty Ltd, your satisfaction is our priority. Allow us to cater to your needs, and experience the finest catering services that Mzinti and the surrounding areas have to offer.
+
+					</p>
+    	</div>
+    	</div>
+		</div>
+		      </div>
+		    </div>
+		  </div>
+
+
+
+
+
+
+
+
+
+
+		<div class="testimonials">
+
+		<div class="inner">
+
+		<h2 style="background-color: transparent;">Testimonials</h2>
+		<div class="border"></div>
+
+		<div class="row">
+		    <div class="col">
+		        <div class="testimonial">
+		            <img src="Products/Product (1).jpg" alt="">
+		            <div class="name">Name & Surname</div>
+		            <div class="stars">
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		            </div>
+
+		            <p>
+		                Wow what great service delivery! No one went home with an empty stomach and everyone really loved the food. Even today people are still talking about how good the food was.
+		            </p>
+		          </div>
+		        </div>
+
+
+
+
+
+		        <div class="col">
+		        <div class="testimonial">
+		            <img src="Products/Product (1).jpg" alt="">
+		            <div class="name">Name & Surname</div>
+		            <div class="stars">
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="far fa-star"></i>
+		                <i class="far fa-star"></i>
+		            </div>
+
+		            <p>
+		                No, when ever we do something, i'm calling these people back again.
+		            </p>
+		          </div>
+		        </div>
+
+
+
+
+		        <div class="col">
+		        <div class="testimonial">
+		            <img src="Products/Product (1).jpg" alt="">
+		            <div class="name">Name & Surname</div>
+		            <div class="stars">
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="fas fa-star"></i>
+		                <i class="far fa-star"></i>
+		            </div>
+
+		            <p>
+		                It was a sad day for us and the rest of the family as we were lay our father to his final resting place, and these people took care of everything on the food side to the point that we even forgot that we hired them and felt like they were family.
+		            </p>
+		          </div>
+		        </div>
+
+
+					 </div>
+					 <footer>
+	 			<div class="outer-footer">
+	 			  <div class="widget links">
+	 			                    <ul class="style2">
+	 			                       <li><a href="https://www.termsfeed.com/live/1ab1c651-5b25-43e4-8812-d7e8658a1dd3" style="color: black;">Privacy Policy</a></li>
+	 			                      <li><a href="https://www.termsfeed.com/live/07228ddf-8948-43c8-8992-679d5a7536e2" style="color: black;">terms</a></li>
+	 			                    </ul>
+	 			                  </div>
+	 			<footer class="footer-distributed">
+
+	 			        <div class="footer-left">
+	 			            <h3 style="background-color: transparent;">EsifisoSethu</span></h3>
+
+	 			            <p style="background-color: transparent;" class="footer-links">
+	 			                <a href="index.html">Home</a>
+	 			                |
+	 			                <a href="selling.html">Services</a>
+	 			                |
+	 			                <a href="contact.html">Contact Us</a>
+	 			            </p>
+
+	 			            <p style="background-color: transparent;" class="footer-company-name">Copyright © 2024 EsifisoSethu Creations. Website by  <strong><a href="www.blossomvelder.co.za">Blossom Velder (pty) Ltd</a>.</strong> All rights reserved</p>
+	 			        </div>
+
+	 			        <div  style="background-color: transparent;" class="footer-center">
+	 			            <div>
+	 			                <i class="fa fa-map-marker"></i>
+	 			                <p style="background-color: transparent;"><span>Mpumalanga<br>South Africa</p>
+	 			            </div>
+
+	 			            <div>
+	 			                <i class="fa fa-phone"></i>
+	 			                <p style="background-color: transparent;">082 645 9088</p>
+	 			            </div>
+	 			            <div>
+	 			                <i class="fa fa-envelope"></i>
+	 			                <p style="background-color: transparent;"><a href="mailto:fisokuhlecollege@gmail.com">fisokuhlecollege@gmail.com</a></p>
+	 			            </div>
+	 			        </div>
+	 			        <div class="footer-right">
+	 			            <p style="background-color: transparent;" class="footer-company-about">
+	 			                <span>About Us</span>
+	 			                <strong>EsifisoSethu Creation pty Ltd</strong> For All Your Catering Needs..We got you covered! We do catering for all for events, funerals, ceremonies, celebrations & meetings.
+										</p>
+	 			            <div class="footer-icons">
+	 			                <a href="https://web.facebook.com/blossomvelder/"><i class="fa fa-facebook"></i></a>
+	 			                <a href="https://www.instagram.com/blossomvelder01/?hl=en"><i class="fa fa-instagram"></i></a>
+	 			                <a href="https://www.youtube.com/channel/UC5AzuVWZuJUGYBChW05UKNQ?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+	 			            </div>
+	 			        </div>
+	 			    </footer>
+
+				<script src="site.js"></script>
+				<script src="dash.js"></script>
+				</body>
+				</html>
